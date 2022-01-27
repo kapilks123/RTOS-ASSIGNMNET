@@ -1,0 +1,4 @@
+Q9. Find the fields that are maintained in the Task Control Block / Process Control Block of the
+RTOS you are using. 
+
+Ans---> GPRS, LR, PC,SP special purpose register, CR 
