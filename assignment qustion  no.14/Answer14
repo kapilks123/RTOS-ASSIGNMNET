@@ -1,0 +1,2 @@
+Q14. Find the tick frequency configuration for your RTOS.
+Ans--> From FreeRTOSConfig.h , there is a Macro called "#define configTICK_RATE_HZ				( ( TickType_t ) 1000 )" which gives tick frequency
