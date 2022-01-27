@@ -1,0 +1,4 @@
+6. What are the maximum number of tasks that can be created on the RTOS you are using?
+Is it limited by the RTOS design or underlying hardware resources or both.                                  
+ -----> Each task creation is allocated with memory (Either dynamically or statically),so number of task are limited to the memory ram of hardware
+        Created Inside HEAP. In FreeROSConfig.h there is a MACRO define, "#define configTOTAL_HEAP_SIZE			( ( size_t ) ( 75  * 1024 ) )"

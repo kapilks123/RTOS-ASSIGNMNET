@@ -1,0 +1,3 @@
+Q7. What is the scheduling algorithm used by your RTOS?                                                 
+Ans---->priority based preemtive scheduling, based on priority value of the task scheduler picks & executes the task from the ready queue
+                                                                                                                 
